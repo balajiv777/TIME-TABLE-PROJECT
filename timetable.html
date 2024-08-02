@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME TABLE</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fac107;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            background-color: #04d9ff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 2px solid #2acc2a;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #bfe612;
+            color: white;
+        }
+        caption {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        td {
+            background-color: #0afa52;
+        }
+        tr:nth-child(even) td {
+            background-color: #12d4f7;
+        }
+        tr:hover td {
+            background-color: #0ad2ec;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>TimeTable</caption>
+        <th>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </th>
+        <tb>
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td>TAMIL</td>
+                <td>ENGLISH</td>
+                <td>MATHS</td>
+                <td>SOCIAL</td>
+                <td>GAMES</td>
+            </tr>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>AI</td>
+                <td>MathS</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>History</td>
+                <td>Physical Ed.</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>MathS</td>
+            </tr>
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Physical Ed.</td>
+                <td>DA</td>
+                <td>ECONOMICS</td>
+                
+            </tr>
+            <tr>
+                <td>12:00 - 01:00</td>
+                <td colspan="5">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>01:00 - 02:00</td>
+                <td>Geography</td>
+                <td>English</td>
+                <td>MATHS</td>
+                <td>Science</td>
+                <td>SOCIAL</td>
+                
+            </tr>
+            <tr>
+                <td>02:00 - 03:00</td>
+                <td>SOFT SKILL</td>
+                <td>Geography</td>
+                <td>History</td>
+                <td>Physical Ed.</td>
+                <td>CIVICS</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
